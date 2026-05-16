@@ -82,6 +82,7 @@ const LevelScript level_lll_entry[] = {
 		MARIO_POS(0x01, 0, -7147, 1189, 2222),
 		OBJECT(MODEL_NONE, -11719, 1195, -1661, 0, 0, 0, 0x00000000, ),
 		OBJECT(MODEL_NONE, -14, 4802, 33, 0, 0, 0, 0x00000000, bhvWarp),
+		OBJECT(MODEL_NONE, -12655, 1195, -2294, 0, 0, 0, 0x00000000, ),
 		TERRAIN(lll_area_1_collision),
 		MACRO_OBJECTS(lll_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
