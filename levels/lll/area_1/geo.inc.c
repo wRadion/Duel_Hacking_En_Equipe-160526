@@ -3,6 +3,10 @@
 const GeoLayout lll_area_1_geo[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 566, 2944, -960, lll_dl_pole_mesh_layer_1),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, 885, 3075, -655, lll_dl_pole2_mesh_layer_1),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -638, 2225, -1483, lll_dl_pole3_mesh_layer_1),
+		GEO_TRANSLATE_NODE_WITH_DL(LAYER_OPAQUE, -1021, 2552, 864, lll_dl_pole4_mesh_layer_1),
 		GEO_DISPLAY_LIST(LAYER_OPAQUE, lll_dl_volcano_mesh_layer_1_with_revert),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),
