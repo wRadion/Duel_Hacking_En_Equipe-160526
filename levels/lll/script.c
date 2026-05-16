@@ -89,7 +89,6 @@ const LevelScript level_lll_entry[] = {
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	AREA(2, lll_area_2),
-		OBJECT(MODEL_BULLY_BOSS, 370, 753, -91, 0, 0, 0, (0x02 << 24), bhvBigBullyWithMinions),
 		OBJECT(MODEL_NONE, -35, 3504, -145, 0, 0, 0, 0x00000000, bhvAirborneWarp),
 		TERRAIN(lll_area_2_collision),
 		MACRO_OBJECTS(lll_area_2_macro_objs),
