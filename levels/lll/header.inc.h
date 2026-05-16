@@ -27,7 +27,7 @@ extern Vtx lll_dl_pole3_mesh_layer_1_vtx_0[21];
 extern Gfx lll_dl_pole3_mesh_layer_1_tri_0[];
 extern Vtx lll_dl_pole4_mesh_layer_1_vtx_0[21];
 extern Gfx lll_dl_pole4_mesh_layer_1_tri_0[];
-extern Vtx lll_dl_volcano_mesh_layer_1_vtx_0[730];
+extern Vtx lll_dl_volcano_mesh_layer_1_vtx_0[841];
 extern Gfx lll_dl_volcano_mesh_layer_1_tri_0[];
 extern Vtx lll_dl_volcano_mesh_layer_1_vtx_1[53];
 extern Gfx lll_dl_volcano_mesh_layer_1_tri_1[];
