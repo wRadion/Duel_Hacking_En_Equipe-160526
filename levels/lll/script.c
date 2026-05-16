@@ -89,6 +89,7 @@ const LevelScript level_lll_entry[] = {
 	END_AREA(),
 	AREA(2, lll_area_2),
 		OBJECT(MODEL_BULLY_BOSS, 28890, 0, -586, 0, 0, 0, (0x02 << 24), bhvBigBullyWithMinions),
+		OBJECT(MODEL_NONE, 27985, 3504, -145, 0, 0, 0, 0x00000000, bhvAirborneWarp),
 		TERRAIN(lll_area_2_collision),
 		MACRO_OBJECTS(lll_area_2_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
