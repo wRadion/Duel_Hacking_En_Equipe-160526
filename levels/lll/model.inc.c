@@ -1,4 +1,4 @@
-Lights1 lll_dl_f3dlite_material_lights = gdSPDefLights1(
+Lights1 lll_dl_pole1_lights = gdSPDefLights1(
 	0x7F, 0x7F, 0x7F,
 	0xFF, 0xFF, 0xFF, 0x49, 0x49, 0x49);
 
@@ -4252,8 +4252,8 @@ Gfx lll_dl_arena_mesh_layer_1_tri_3[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_lll_dl_f3dlite_material[] = {
-	gsSPSetLights1(lll_dl_f3dlite_material_lights),
+Gfx mat_lll_dl_pole1[] = {
+	gsSPSetLights1(lll_dl_pole1_lights),
 	gsDPPipeSync(),
 	gsDPSetCombineLERP(TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT, TEXEL0, 0, SHADE, 0, 0, 0, 0, ENVIRONMENT),
 	gsDPSetAlphaDither(G_AD_NOISE),
@@ -4270,7 +4270,7 @@ Gfx mat_lll_dl_f3dlite_material[] = {
 	gsSPEndDisplayList(),
 };
 
-Gfx mat_revert_lll_dl_f3dlite_material[] = {
+Gfx mat_revert_lll_dl_pole1[] = {
 	gsDPPipeSync(),
 	gsDPSetAlphaDither(G_AD_DISABLE),
 	gsDPSetTextureLUT(G_TT_NONE),
@@ -4459,30 +4459,30 @@ Gfx mat_revert_lll_dl_roche2_001_layer1[] = {
 };
 
 Gfx lll_dl_pole_mesh_layer_1[] = {
-	gsSPDisplayList(mat_lll_dl_f3dlite_material),
+	gsSPDisplayList(mat_lll_dl_pole1),
 	gsSPDisplayList(lll_dl_pole_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_lll_dl_f3dlite_material),
+	gsSPDisplayList(mat_revert_lll_dl_pole1),
 	gsSPEndDisplayList(),
 };
 
 Gfx lll_dl_pole2_mesh_layer_1[] = {
-	gsSPDisplayList(mat_lll_dl_f3dlite_material),
+	gsSPDisplayList(mat_lll_dl_pole1),
 	gsSPDisplayList(lll_dl_pole2_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_lll_dl_f3dlite_material),
+	gsSPDisplayList(mat_revert_lll_dl_pole1),
 	gsSPEndDisplayList(),
 };
 
 Gfx lll_dl_pole3_mesh_layer_1[] = {
-	gsSPDisplayList(mat_lll_dl_f3dlite_material),
+	gsSPDisplayList(mat_lll_dl_pole1),
 	gsSPDisplayList(lll_dl_pole3_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_lll_dl_f3dlite_material),
+	gsSPDisplayList(mat_revert_lll_dl_pole1),
 	gsSPEndDisplayList(),
 };
 
 Gfx lll_dl_pole4_mesh_layer_1[] = {
-	gsSPDisplayList(mat_lll_dl_f3dlite_material),
+	gsSPDisplayList(mat_lll_dl_pole1),
 	gsSPDisplayList(lll_dl_pole4_mesh_layer_1_tri_0),
-	gsSPDisplayList(mat_revert_lll_dl_f3dlite_material),
+	gsSPDisplayList(mat_revert_lll_dl_pole1),
 	gsSPEndDisplayList(),
 };
 
