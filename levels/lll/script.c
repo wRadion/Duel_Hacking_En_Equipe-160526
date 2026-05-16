@@ -79,10 +79,15 @@ const LevelScript level_lll_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, lll_area_1),
-		MARIO_POS(0x01, 0, -7147, 1189, 2222),
-		OBJECT(MODEL_NONE, -11719, 1195, -1661, 0, 0, 0, 0x00000000, ),
+		OBJECT(MODEL_BULLY, 359, 2088, 1128, 0, 0, 0, 0x00000000, bhvSmallBully),
+		OBJECT(MODEL_BULLY, -2354, 632, 837, 0, 0, 0, 0x00000000, bhvSmallBully),
+		OBJECT(MODEL_BULLY, -1023, 632, -2003, 0, 0, 0, 0x00000000, bhvSmallBully),
+		OBJECT(MODEL_BULLY, 2563, 632, 927, 0, 0, 0, 0x00000000, bhvSmallBully),
+		OBJECT(MODEL_BULLY, -3650, 468, 452, 0, 0, 0, 0x00000000, bhvSmallBully),
+		MARIO_POS(0x01, 0, -4697, 781, 1420),
+		OBJECT(MODEL_NONE, -7547, 785, -1243, 0, 0, 0, 0x00000000, ),
 		OBJECT(MODEL_NONE, -14, 4802, 33, 0, 0, 0, 0x00000000, bhvWarp),
-		OBJECT(MODEL_NONE, -12655, 1195, -2294, 0, 0, 0, 0x00000000, ),
+		OBJECT(MODEL_NONE, -8485, 785, -1959, 0, 0, 0, 0x00000000, ),
 		TERRAIN(lll_area_1_collision),
 		MACRO_OBJECTS(lll_area_1_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
@@ -104,7 +109,7 @@ const LevelScript level_lll_entry[] = {
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, 0, -7147, 1189, 2222),
+	MARIO_POS(0x01, 0, -4697, 781, 1420),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),

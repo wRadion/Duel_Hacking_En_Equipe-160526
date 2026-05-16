@@ -16,7 +16,7 @@ extern u8 lll_dl_volcanplateforme_ci4[];
 extern u8 lll_dl_volcanplateforme_pal_rgba16[];
 extern u8 lll_dl_yogan01_ci8[];
 extern u8 lll_dl_yogan01_pal_rgba16[];
-extern Vtx lll_dl_volcano_mesh_layer_1_vtx_0[590];
+extern Vtx lll_dl_volcano_mesh_layer_1_vtx_0[686];
 extern Gfx lll_dl_volcano_mesh_layer_1_tri_0[];
 extern Vtx lll_dl_volcano_mesh_layer_1_vtx_1[53];
 extern Gfx lll_dl_volcano_mesh_layer_1_tri_1[];
