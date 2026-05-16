@@ -3,7 +3,6 @@
 const GeoLayout lll_area_1_geo[] = {
 	GEO_NODE_START(),
 	GEO_OPEN_NODE(),
-		GEO_TRANSLATE_NODE(LAYER_OPAQUE, -2706, 963, 2707),
 		GEO_DISPLAY_LIST(LAYER_OPAQUE, lll_dl_volcano_mesh_layer_1_with_revert),
 	GEO_CLOSE_NODE(),
 	GEO_RETURN(),

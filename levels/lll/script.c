@@ -79,6 +79,7 @@ const LevelScript level_lll_entry[] = {
 	/* Fast64 end persistent block [level commands] */
 
 	AREA(1, lll_area_1),
+		MARIO_POS(0x01, 0, -2706, 963, 2707),
 		OBJECT(MODEL_NONE, -3835, 963, 962, 0, 0, 0, 0x00000000, bhvWarp),
 		TERRAIN(lll_area_1_collision),
 		MACRO_OBJECTS(lll_area_1_macro_objs),
@@ -98,7 +99,7 @@ const LevelScript level_lll_entry[] = {
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	FREE_LEVEL_POOL(),
-	MARIO_POS(1, 0, 0, 0, 0),
+	MARIO_POS(0x01, 0, -2706, 963, 2707),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),
