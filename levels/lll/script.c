@@ -85,7 +85,7 @@ const LevelScript level_lll_entry[] = {
 		OBJECT(MODEL_BULLY, 2563, 632, 927, 0, 0, 0, 0x00000000, bhvSmallBully),
 		OBJECT(MODEL_BULLY, -3650, 468, 452, 0, 0, 0, 0x00000000, bhvSmallBully),
 		MARIO_POS(0x01, 0, -4697, 781, 1420),
-		OBJECT(MODEL_NONE, -638, 1588, -1483, 0, 0, 0, (100 << 16), bhvPoleGrabbing),
+		OBJECT(MODEL_NONE, 74, 1570, -1712, 0, 0, 0, (100 << 16), bhvPoleGrabbing),
 		OBJECT(MODEL_NONE, -1021, 1916, 864, 0, 0, 0, (100 << 16), bhvPoleGrabbing),
 		OBJECT(MODEL_NONE, 885, 2438, -655, 0, 0, 0, (100 << 16), bhvPoleGrabbing),
 		OBJECT(MODEL_NONE, 566, 2307, -960, 0, 0, 0, (100 << 16), bhvPoleGrabbing),
