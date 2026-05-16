@@ -7,7 +7,7 @@ void scroll_lll_dl_volcano_mesh_layer_1_vtx_3() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(lll_dl_volcano_mesh_layer_1_vtx_3);
 
-	deltaY = (int)(1.0 * 0x20) % height;
+	deltaY = (int)(-1.0 * 0x20) % height;
 
 	if (absi(currentY) > height) {
 		deltaY -= (int)(absi(currentY) / height) * height * signum_positive(deltaY);
@@ -28,7 +28,7 @@ void scroll_lll_dl_arena_mesh_layer_1_vtx_1() {
 	int deltaY;
 	Vtx *vertices = segmented_to_virtual(lll_dl_arena_mesh_layer_1_vtx_1);
 
-	deltaY = (int)(1.0 * 0x20) % height;
+	deltaY = (int)(-1.0 * 0x20) % height;
 
 	if (absi(currentY) > height) {
 		deltaY -= (int)(absi(currentY) / height) * height * signum_positive(deltaY);
