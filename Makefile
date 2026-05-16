@@ -5,7 +5,7 @@ include util.mk
 # Default target
 default: all
 
-TARGET_STRING := sm64
+TARGET_STRING := Duel_Hacking_En_Equipe
 
 # Preprocessor definitions
 DEFINES :=
