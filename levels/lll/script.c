@@ -78,17 +78,17 @@ const LevelScript level_lll_entry[] = {
 	/* Fast64 begin persistent block [level commands] */
 	/* Fast64 end persistent block [level commands] */
 
-	AREA(1, lll_area_1),
-		MARIO_POS(0x01, 0, 0, 0, 0),
-		TERRAIN(lll_area_1_collision),
-		MACRO_OBJECTS(lll_area_1_macro_objs),
+	AREA(2, lll_area_2),
+		OBJECT(MODEL_BULLY_BOSS, 28890, 0, -586, 0, 0, 0, (0x02 << 24), bhvBigBullyWithMinions),
+		TERRAIN(lll_area_2_collision),
+		MACRO_OBJECTS(lll_area_2_macro_objs),
 		SET_BACKGROUND_MUSIC(0x00, SEQ_LEVEL_GRASS),
 		TERRAIN_TYPE(TERRAIN_GRASS),
 		/* Fast64 begin persistent block [area commands] */
 		/* Fast64 end persistent block [area commands] */
 	END_AREA(),
 	FREE_LEVEL_POOL(),
-	MARIO_POS(0x01, 0, 0, 0, 0),
+	MARIO_POS(1, 0, 0, 0, 0),
 	CALL(0, lvl_init_or_update),
 	CALL_LOOP(1, lvl_init_or_update),
 	CLEAR_LEVEL(),
